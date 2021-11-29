@@ -24,7 +24,7 @@ class Server {
     //Public directory (declare use mean is a middleware)
     this.app.use(express.static("public"));
   }
-
+  //
   routes() {
     //Llamo con un middleware el archivo routes para uusario, declaro la ruta '/api/usuarios/
     this.app.use(this.usuariosPath, require("../routes/usuarios"));
