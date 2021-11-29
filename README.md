@@ -1,4 +1,9 @@
-# restAPINODE
-Rest API NODE
+# restAPINODE WEBSERVER + RESTSERVER
 
-Base de cualquier API con NODE
+Rest API NODE base de cualquier API con NODE
+
+npm install para reconstruir los modulos en NODE
+
+Para ejecutar
+
+nodemon app
